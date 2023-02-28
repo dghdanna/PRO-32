@@ -19,6 +19,9 @@ class Player {
 
   life() {
     push();
+    textSize(20);
+    fill("white");
+    text("Player", 280, 40);
    //escribe el código correcto para mostrar las vidas como tres rectángulos verdes en una línea horizontal.
    fill(this.life1);
     rect(180, 50, 70, 30);
